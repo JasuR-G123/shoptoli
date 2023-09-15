@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+margin-top: 20px;
+   
+}
+
+.nav{
+     background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 130px;
+    display: flex;
+     justify-content: space-around;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar h2{
+    margin-right: 400px;
+}
+
+.navbar li{
+    margin-right: 70px;
+}
+
+.navbar ul li a{
+    font-size: 15px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: #FFA149;
+    border: none;
+    
+}
+
+.navbar button a{
+    color: white;
+}
+
+.navbar li a{
+    bottom: 2px;
+}
+
+.navbar ul li:nth-child(1){
+    margin-top: 10px !important;
+}
+.navbar ul li:nth-child(2){
+    margin-top: 10px !important;
+}
+.navbar ul li:nth-child(3){
+    margin-top: 10px !important;
+}
+.navbar ul li:nth-child(4){
+    margin-top: 3px !important;
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 650px;
+}
+
+header .one{
+    position: absolute;
+    right: 0;
+}
+
+header .two{
+    position: absolute;
+    right: 0;
+    top: 400px;
+}
+
+header .tree{
+    position: absolute;
+    left: 545px;
+}
+
+header span{
+    font-size: 40px;
+    text-align: left;
+}
+
+header ul li{
+    width: 350px;
+}
+
+header ul{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+.select{
+    position: absolute;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+    padding-right: 80px;
+    top: 500px;
+    left: 300px;
+}
+
+.NAME{
+    position: absolute;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 80px;
+    top: 500px;
+    left: 45px;
+}
+
+.Start{
+  position: absolute;
+  top: 498px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+color: white;
+background-color: #FFA149;
+  border-color: white;
+  border-width: 22px;
+  left: 503px;
+}
+
+.Background{
+     background-color: #F9F9F9;
+    width: 1120px;
+    height: 545px;
+    margin: 0 auto;
+}
+
+.WebSiteForAll span{
+    font-size: 15px;
+    text-align: left;
+}
+
+.WebSiteForAll b{
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+.WebSiteForAll ul li:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.WebSiteForAll ul li b {
+   position: absolute;
+   top: 900px;
+   left: 200px;
+}
+
+.WebSiteForAll ul li span{
+    position: absolute;
+    top: 950px;
+    left: 200px;
+    width: px;
+}
+
+.MainTwoCards{
+    display: flex;
+    position: absolute;
+    top: 1280px;
+    left: 210px;
+}
+
+.MainCards{
+     display: flex;
+    position: absolute;
+    top: 1100px;
+    left: 210px;
+}
+
+.card{
+margin-right: 15px;
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+   margin-top: px;
+   z-index: 100
+}
+
+.card img{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.card span{
+    
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.blue{
+    color: blue;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 1550px;
+}
+
+.Dot{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 840px;
+  top: 100px;
+  z-index: 0;
+}
+
+.blanks{
+    width: 380px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-width: 10px;
+    border-color: #FFA149;
+ 
+  
+    margin-right: 0px;
+}
+
+
+    
+    .MainBlank{
+        
+display: flex;
+    position: absolute;
+    top: 200px;
+    }
+    
+    .NotMainBlank{
+        display: flex;
+    position: absolute;
+    top: 500px;
+    }
+    
+    .blanks img{
+        width: 75px;
+        height: 75px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .MainBlank img{
+        position: absolute;
+       
+    }
+    
+    .oneone{
+        width: 323px;
+        position: absolute;
+        top: 150px;
+    }
+    
+    .TwoTwo{
+        width: 323px;
+        position: absolute;
+        top: 150px;
+        left: 400px;
+    }
+    .ThreeThree{
+        width: 323px;
+        position: absolute;
+        top: 150px;
+        left: 800px;
+    }
+    .FourFour{
+        width: 323px;
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+    .FiveFive{
+        width: 323px;
+        position: absolute;
+        top: 150px;
+        left: 400px;
+    }
+    
+    .menu{
+        display: none;
+    }
+  
